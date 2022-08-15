@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_list"
+        android:icon="@drawable/ic_baseline_dashboard_24"
+        android:title="@string/listStory" />
+
+    <item
+        android:id="@+id/navigation_map"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:title="@string/mapStory" />
+
+</menu>

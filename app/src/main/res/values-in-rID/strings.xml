@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">submission</string>
+    <string name="invalid_password">Kata sandi kurang dari 6 karakter</string>
+    <string name="text_header_register">Buat sebuah akun</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="name_hint">Nama Lengkap</string>
+    <string name="text_btn_register">Daftar</string>
+    <string name="text_already_account">Sudah memiliki akun?</string>
+    <string name="invalid_email">Email tidak benar</string>
+    <string name="illustrationLogin">Ilustrasi Login Gambar</string>
+    <string name="text_header_login">Selamat Datang</string>
+    <string name="text_body_login">Masukkan email dan password yang kamu daftarkan sebelumnya</string>
+    <string name="text_btn_login">Masuk</string>
+    <string name="text_not_have_account">Belum punya akun?</string>
+    <string name="empty_email">Silahkan, masukkan email!!</string>
+    <string name="empty_password">Silahkan, masukkan password!!</string>
+    <string name="empty_name">Silahkan, masukkan nama!!</string>
+    <string name="welcome">Selamat Datang!!</string>
+    <string name="image_post">Postingan Gambar</string>
+    <string name="dummy_total_comment">20</string>
+    <string name="dummy_total_like">10</string>
+    <string name="stories">Stories</string>
+    <string name="upload_this">Masukkan gambar</string>
+    <string name="description_hint">deskripsi</string>
+    <string name="text_btn_post">Posting</string>
+    <string name="detail">Detail</string>
+    <string name="cancel">Batal</string>
+    <string name="title_logout">Keluar dari Stories</string>
+    <string name="logout_info">Anda dapat login kembali kapan pun Anda mau!</string>
+    <string name="yes">Ya</string>
+    <string name="enable_location">Data lokasi telah terekam</string>
+    <string name="splash">Dicoding Story</string>
+
+</resources>

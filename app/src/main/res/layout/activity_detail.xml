@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ui.detail.DetailActivity">
+
+    <View
+        android:id="@+id/v_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_baseline_keyboard_backspace_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_action"
+        style="@style/text_large_semi_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/detail"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_back"
+        app:layout_constraintStart_toEndOf="@+id/iv_back"
+        app:layout_constraintTop_toTopOf="@+id/iv_back" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/tv_pic_dummy"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:src="@drawable/ic_profile_pic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/v_actionbar" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        style="@style/text_body_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:transitionName="name"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_pic_dummy"
+        app:layout_constraintStart_toEndOf="@+id/tv_pic_dummy"
+        app:layout_constraintTop_toTopOf="@+id/tv_pic_dummy"
+        tools:text="Aldi Susanto" />
+
+
+    <TextView
+        android:id="@+id/tv_desc"
+        style="@style/text_body_regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="@dimen/margin"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        android:transitionName="desc"
+        app:layout_constraintStart_toStartOf="@+id/tv_pic_dummy"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pic_dummy"
+        tools:text="Aku menyukaimu bukan karena kamu imut, kamu imut karena aku mencintaimu. Tidak masalah jika orang lain mengolok-olokmu. Bagaimanapun, kau adalah pahlawan ku." />
+
+    <ImageView
+        android:id="@+id/iv_post"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/image_post"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_profile_pic"
+        android:transitionName="image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_desc" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

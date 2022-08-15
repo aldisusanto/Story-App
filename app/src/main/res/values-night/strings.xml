@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">submission</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="invalid_password">password less than 6 characters</string>
+    <string name="text_header_register">Create an account</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="name_hint">Full name</string>
+    <string name="text_btn_register">Create an account</string>
+    <string name="text_already_account">Already have an account</string>
+    <string name="invalid_email">Invalid email</string>
+    <string name="illustrationLogin">Illustration Login Image</string>
+    <string name="text_header_login">Welcome</string>
+    <string name="text_body_login">Enter the email and password you registered earlier</string>
+    <string name="text_btn_login">Login</string>
+    <string name="text_not_have_account">Don\'t have account ?</string>
+    <string name="empty_email">Please, Enter Email!!</string>
+    <string name="empty_password">Please, Enter Password</string>
+    <string name="empty_name">Please, enter name</string>
+    <string name="welcome">Welcome!!</string>
+    <string name="image_post">Image Post</string>
+    <string name="dummy_total_comment">20</string>
+    <string name="dummy_total_like">10</string>
+    <string name="stories">Stories</string>
+    <string name="upload_this">Enter image</string>
+    <string name="description_hint">Description</string>
+    <string name="text_btn_post">Post</string>
+    <string name="detail">Detail</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_logout">Logout from stories</string>
+    <string name="logout_info">You can login back anytime you want!</string>
+    <string name="yes">Yes</string>
+    <string name="enable_location">Data lokasi telah terekam</string>
+    <string name="splash">Dicoding Story</string>
+
+</resources>

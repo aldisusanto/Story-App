@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="text_large_semi_bold">
+        <item name="android:textSize">@dimen/text_large_semi_bold_size</item>
+        <item name="android:textColor">@color/text_large_semi_bold_color</item>
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+
+    </style>
+
+    <style name="text_body_regular">
+        <item name="android:textColor">@color/text_body_regular_color</item>
+        <item name="android:textSize">@dimen/text_body_regular_size</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+
+    <dimen name="text_large_semi_bold_size">20sp</dimen>
+    <dimen name="text_body_regular_size">15sp</dimen>
+</resources>

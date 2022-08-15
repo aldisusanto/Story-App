@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.register.RegisterFragment">
+
+    <TextView
+        android:id="@+id/tv_header_register"
+        style="@style/text_large_semi_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin"
+        android:text="@string/text_header_register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.android.submission.ui.customview.EditTextName
+        android:id="@+id/edt_name"
+        style="@style/text_body_regular"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="@dimen/margin"
+        android:drawablePadding="10dp"
+        android:hint="@string/name_hint"
+        android:inputType="text"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_header_register" />
+
+    <com.android.submission.ui.customview.EditTextEmail
+        android:id="@+id/edt_email"
+        style="@style/text_body_regular"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="@dimen/margin"
+        android:drawablePadding="10dp"
+        android:hint="@string/email_hint"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="@id/edt_name"
+        app:layout_constraintStart_toStartOf="@id/edt_name"
+        app:layout_constraintTop_toBottomOf="@id/edt_name" />
+
+    <com.android.submission.ui.customview.EditTextPassword
+        android:id="@+id/edt_password"
+        style="@style/text_body_regular"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="@dimen/margin"
+        android:drawablePadding="10dp"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="@id/edt_email"
+        app:layout_constraintStart_toStartOf="@id/edt_email"
+        app:layout_constraintTop_toBottomOf="@id/edt_email" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_register"
+        style="@style/text_large_semi_bold"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginTop="20sp"
+        android:layout_marginEnd="@dimen/margin"
+        android:layout_marginBottom="@dimen/margin"
+        android:text="@string/text_btn_register"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        app:backgroundTint="@color/colorPrimary"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edt_password" />
+
+    <TextView
+        android:id="@+id/btn_to_login"
+        style="@style/text_body_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/text_already_account"
+        app:layout_constraintEnd_toEndOf="@+id/btn_register"
+        app:layout_constraintStart_toStartOf="@+id/btn_register"
+        app:layout_constraintTop_toBottomOf="@+id/btn_register" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

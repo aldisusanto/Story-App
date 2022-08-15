@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_large_semi_bold_color">#4E4E4E</color>
+    <color name="text_body_regular_color">#555454</color>
+    <color name="colorPrimary">#1F2B38</color>
+    <color name="colorSecondary">#C9C9C9</color>
+</resources>
